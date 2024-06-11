@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addressFragment">
+
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="com.example.lab7.AddressFragment"
+        android:label="Address Fragment">
+
+        <action
+            android:id="@+id/action_addressFragment_to_displayFragment"
+            app:destination="@id/displayFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/displayFragment"
+        android:name="com.example.lab7.DisplayFragment"
+        android:label="Display Fragment">
+
+        <argument
+            android:name="street"
+            app:argType="string" />
+        <argument
+            android:name="city"
+            app:argType="string" />
+        <argument
+            android:name="postalCode"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
