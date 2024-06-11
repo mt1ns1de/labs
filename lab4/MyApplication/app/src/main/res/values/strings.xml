@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_text">First activity</string>
+    <string name="linear_text">Second activity</string>
+    <string name="relative_text">Third activity</string>
+    <string name="btn_main">Main</string>
+    <string name="btn_linear">Second</string>
+    <string name="btn_relative">Third</string>
+    <string name="btn_switch">Switch</string>
+    <string name="btn_radio">Radio</string>
+</resources>
